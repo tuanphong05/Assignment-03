@@ -467,11 +467,11 @@
 
   .line-1 {
     height: 1px;
-    width: 700px;
+    width: 696px;
     background-color: #d6c08d;
-    position: absolute;
-    top: 250%;
-    left: 3%;
+    position: relative;
+    bottom: 250px;
+    right: 100px;
   }
 
   /* Project */
