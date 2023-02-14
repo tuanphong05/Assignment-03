@@ -1,0 +1,129 @@
+/* Using for mobile */
+@media screen and (max-width: 576px) {
+  .grid-goal {
+    display: grid;
+    grid-template-columns: 540px;
+    grid-template-rows: repeat(6, 1fr);
+    background-color: blue;
+    width: 576px;
+    height: 2070px;
+    padding: 16px;
+    row-gap: 24px;
+  }
+
+  /* Goal */
+  .item-1 {
+    width: 540px;
+    height: 350px;
+  }
+
+  .line-1,
+  .line-2,
+  .line-3,
+  .line-4 {
+    width: 520px;
+  }
+
+  .line-1 {
+    top: -10px;
+  }
+
+  .img-position {
+    position: relative;
+    left: 200px;
+    bottom: 20px;
+  }
+
+  .line-2 {
+    position: relative;
+    top: 27%;
+  }
+
+  .line-3 {
+    position: relative;
+    top: 55%;
+  }
+
+  .line-4 {
+    position: relative;
+    top: 81%;
+  }
+
+  .position-goal-1-txt {
+    position: relative;
+    top: 0px;
+    right: 25%;
+  }
+
+  /* Scopes*/
+  .item-2 {
+    width: 540px;
+  }
+
+  .line-5 {
+    width: 520px;
+    top: -5px;
+  }
+
+  /* Teams */
+  .item-3 {
+    width: 540px;
+  }
+
+  .line-6 {
+    width: 520px;
+    top: -260px;
+  }
+
+  .icon-user-1 {
+    left: 240px;
+  }
+
+  /* Primary */
+  .item-4 {
+    width: 540px;
+  }
+
+  .line-7 {
+    width: 520px;
+  }
+
+  .img-primary {
+    left: 240px;
+  }
+
+  /* Timeline */
+  .item-5 {
+    width: 540px;
+    height: 740px;
+  }
+
+  .line-8,
+  .line-9,
+  .line-10,
+  .line-11,
+  .line-12,
+  .line-13,
+  .line-14 {
+    width: 490px;
+  }
+
+  .line-8 {
+    width: 520px;
+  }
+
+  .position-timeline-txt {
+    position: relative;
+    right: 127px;
+  }
+
+  .style-number {
+    font-size: 12px;
+    padding: 6px;
+    width: 25%;
+    position: relative;
+    bottom: 40px;
+    left: 28px;
+    text-align: center;
+  }
+}

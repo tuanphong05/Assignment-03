@@ -1,0 +1,311 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.grid-goal {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  background-color: blue;
+  padding: 16px;
+  gap: 16px;
+  height: 820px;
+}
+
+/* Goal */
+.item-1 {
+  grid-column: 1 / 3;
+  background-color: white;
+  margin-left: -3px;
+}
+
+.img-goal {
+  width: 24px;
+  height: 24px;
+  margin-left: 48px;
+}
+
+table {
+  width: 100%;
+  border: none;
+}
+
+.pd-bt {
+  padding-bottom: 86px;
+}
+
+td {
+  padding-bottom: 0px;
+  line-height: 1.5;
+  font-size: 16px;
+  border: none;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+.txt-bold {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.style-head-goals {
+  padding: 12px;
+  color: blue;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.line-1 {
+  height: 1px;
+  width: 600px;
+  position: relative;
+  left: 4%;
+  top: 0%;
+  background-color: rgba(207, 203, 203, 0.616);
+}
+
+.line-2 {
+  height: 1px;
+  width: 600px;
+  position: relative;
+  top: 23%;
+  left: 4%;
+  background-color: rgba(207, 203, 203, 0.616);
+}
+
+.line-3 {
+  height: 1px;
+  width: 600px;
+  position: relative;
+  top: 46%;
+  left: 4%;
+  background-color: rgba(207, 203, 203, 0.616);
+}
+
+.line-4 {
+  height: 1px;
+  width: 600px;
+  position: relative;
+  top: 72%;
+  left: 4%;
+  background-color: rgba(207, 203, 203, 0.616);
+}
+
+/* Scopes */
+.item-2 {
+  background-color: white;
+  grid-column: 1/3;
+  height: 100%;
+  margin-left: -3px;
+}
+
+.style-head-scopes {
+  padding: 12px;
+  color: blue;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.flex-scopes {
+  display: flex;
+  gap: 10px;
+  margin-left: 24px;
+}
+
+.pd-bt-xs {
+  padding-bottom: 12px;
+}
+
+.pd-bt-sm {
+  padding-bottom: 24px;
+}
+
+.pd-top-sm {
+  padding-top: 24px;
+}
+
+.item-2 p {
+  line-height: 1.5;
+}
+
+.line-5 {
+  height: 1px;
+  width: 600px;
+  position: relative;
+  top: 2%;
+  left: 4%;
+  background-color: rgba(207, 203, 203, 0.616);
+}
+
+/* Team */
+.item-3 {
+  background-color: white;
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.txt-bold-sm {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.style-head-team {
+  padding: 12px;
+  color: blue;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.position-txt-team {
+  position: relative;
+  right: 10%;
+}
+
+.line-6 {
+  height: 1px;
+  width: 265px;
+  position: relative;
+  bottom: 292px;
+  left: 8%;
+  background-color: rgba(207, 203, 203, 0.616);
+}
+
+.container-list-team {
+  margin-top: 24px;
+}
+
+.icon-user-1 {
+  font-size: 24px;
+}
+
+/* Primary */
+.item-4 {
+  background-color: white;
+  height: 100%;
+}
+
+.style-head-primary {
+  padding: 12px;
+  color: blue;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.img-primary {
+  width: 24px;
+  height: 24px;
+}
+
+.position-txt-prim {
+  position: relative;
+  right: 5%;
+}
+
+.container-list-primary {
+  position: relative;
+  top: 10px;
+}
+
+.line-7 {
+  height: 1px;
+  width: 265px;
+  position: relative;
+  bottom: 150px;
+  left: 8%;
+  background-color: rgba(207, 203, 203, 0.616);
+}
+
+/* Timeline */
+.item-5 {
+  background-color: white;
+  grid-column: 4/5;
+  grid-row: 1/3;
+  height: 100%;
+}
+
+.style-head-timeline {
+  padding: 12px;
+  color: blue;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.style-number {
+  border-radius: 50%;
+  background-color: rgba(185, 115, 250, 0.949);
+  border: 1px solid rgba(179, 136, 7, 0.339);
+  color: white;
+  text-align: center;
+  padding: 8px;
+}
+
+.mg-top-bt {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.line-8 {
+  height: 1px;
+  width: 265px;
+  position: relative;
+  bottom: 702px;
+  left: 8%;
+  background-color: rgba(207, 203, 203, 0.616);
+}
+
+.line-9 {
+  height: 1px;
+  width: 200px;
+  position: relative;
+  border-bottom: 1px dashed lightskyblue;
+  bottom: 600px;
+  left: 26%;
+}
+
+.line-10 {
+  height: 1px;
+  width: 200px;
+  position: relative;
+  border-bottom: 1px dashed lightskyblue;
+  bottom: 480px;
+  left: 26%;
+}
+
+.line-11 {
+  height: 1px;
+  width: 200px;
+  position: relative;
+  border-bottom: 1px dashed lightskyblue;
+  bottom: 365px;
+  left: 26%;
+}
+
+.line-12 {
+  height: 1px;
+  width: 200px;
+  position: relative;
+  border-bottom: 1px dashed lightskyblue;
+  bottom: 250px;
+  left: 26%;
+}
+
+.line-13 {
+  height: 1px;
+  width: 200px;
+  position: relative;
+  border-bottom: 1px dashed lightskyblue;
+  bottom: 130px;
+  left: 26%;
+}
+
+.line-14 {
+  height: 1px;
+  width: 200px;
+  position: relative;
+  border-bottom: 1px dashed lightskyblue;
+  bottom: 20px;
+  left: 26%;
+}

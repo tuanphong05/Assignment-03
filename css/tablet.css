@@ -1,0 +1,564 @@
+/* Not display image banner header when using tablet */
+.style-img-nav {
+  display: none;
+}
+
+/* Use for tablet device */
+/* Nav bar */
+@media screen and (max-width: 768px) {
+  .flex-nav {
+    position: absolute;
+    left: 6%;
+    top: 50%;
+    transform: translateX(1%);
+  }
+
+  .nav-items {
+    font-size: 12px;
+    height: 65px;
+  }
+
+  .inner-nav {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Main info */
+  #target {
+    padding-top: 70px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    line-height: 1.5;
+  }
+
+  /* List info */
+  #personal-info {
+    grid-column-start: 2;
+    grid-column-end: -1;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    width: 100%;
+    line-height: 2;
+  }
+
+  .section-info {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 24px;
+    position: relative;
+    top: 2%;
+    left: 9%;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  #target p {
+    font-size: 12px;
+  }
+
+  #personal-info li {
+    font-size: 12px;
+  }
+
+  .group-icon-info {
+    position: relative;
+    left: 8%;
+    bottom: 20px;
+    display: inline-block;
+  }
+
+  /* Group info */
+  .grid-info-tablet {
+    display: grid;
+    width: 768px;
+    height: 1990px;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 20px;
+  }
+
+  /* Exp */
+  .grid-exp {
+    width: 300px;
+    row-gap: 5px;
+  }
+
+  .exp-title {
+    font-size: 24px;
+  }
+
+  .ic-toolbox {
+    font-size: 38px;
+  }
+
+  .exp-head,
+  .exp-head-1 {
+    font-size: 14px;
+  }
+
+  .container-time,
+  .exp-now,
+  .descrip-exp {
+    font-size: 12px;
+  }
+
+  .list-exp {
+    padding-bottom: 10px;
+  }
+
+  /* Hobb */
+  .grid-hobb {
+    width: 300px;
+    height: 618px;
+    row-gap: 10px;
+  }
+
+  .hobb-head {
+    font-size: 24px;
+  }
+
+  .ic-toolbox {
+    font-size: 38px;
+  }
+
+  .hobb-header,
+  .hobb-header-1 {
+    font-size: 14px;
+  }
+
+  .container-hobb,
+  .exp-now,
+  .descrip-hobb {
+    font-size: 12px;
+  }
+
+  .list-hobb {
+    position: relative;
+    bottom: 11%;
+  }
+
+  /* Skill */
+  .grid-skill {
+    width: 300px;
+    height: 618px;
+    row-gap: 10px;
+  }
+
+  .skill-head {
+    font-size: 24px;
+  }
+
+  .ic-tools-2 {
+    font-size: 38px;
+  }
+
+  .skill-title-1,
+  .skill-title-2,
+  .skill-title-3,
+  .skill-title-4 {
+    font-size: 14px;
+  }
+
+  .skill-color-2 {
+    position: absolute;
+    left: 30%;
+  }
+
+  .skill-color-3 {
+    position: absolute;
+    left: 60%;
+  }
+
+  .skill-color-2-2 {
+    position: absolute;
+    left: 30%;
+  }
+
+  .skill-color-3-2 {
+    position: absolute;
+    left: 60%;
+  }
+
+  .skill-color-2-3 {
+    position: absolute;
+    left: 30%;
+  }
+
+  .skill-color-3-3 {
+    position: absolute;
+    left: 60%;
+  }
+
+  .skill-color-2-4 {
+    position: absolute;
+    left: 30%;
+  }
+
+  .skill-color-3-4 {
+    position: absolute;
+    left: 60%;
+  }
+
+  /* Edu */
+  .grid-edu {
+    width: 300px;
+    height: 618px;
+    row-gap: 10px;
+    position: relative;
+    top: 5px;
+    margin-left: 34px;
+  }
+
+  .list-edu {
+    position: relative;
+    bottom: 50px;
+  }
+
+  .edu-head {
+    font-size: 24px;
+  }
+
+  .ic-pencil {
+    font-size: 38px;
+  }
+
+  .edu-header,
+  .edu-header-1 {
+    font-size: 14px;
+  }
+
+  .descrip-edu {
+    font-size: 12px;
+  }
+
+  /* Lang */
+  .grid-lang {
+    width: 300px;
+    height: 618px;
+    row-gap: 5px;
+    margin-left: 10px;
+    position: relative;
+    top: 12px;
+  }
+
+  .lang-head {
+    font-size: 24px;
+  }
+
+  .ic-mic {
+    font-size: 38px;
+  }
+
+  .lang-title-1,
+  .lang-title-2 {
+    font-size: 14px;
+  }
+
+  .lang-color-2,
+  .lang-color-2-2 {
+    position: absolute;
+    left: 30%;
+  }
+
+  .lang-color-3,
+  .lang-color-3-2 {
+    position: absolute;
+    left: 60%;
+  }
+
+  /* Like */
+  .grid-like {
+    width: 300px;
+    height: 618px;
+    row-gap: 10px;
+    position: relative;
+    top: 14px;
+    margin-left: 35px;
+  }
+
+  .like-head {
+    font-size: 24px;
+  }
+
+  .ic-telescope {
+    font-size: 38px;
+  }
+
+  .circle-icon {
+    width: 52px;
+    height: 52px;
+    padding: 6px;
+    margin-left: 0px;
+    stroke: #199cdb;
+    border: 1px solid #199cdb;
+    border-radius: 50%;
+  }
+
+  .position-text-icon,
+  .position-text-icon-1,
+  .position-text-icon-2,
+  .position-text-icon-3 {
+    font-size: 14px;
+  }
+
+  .icon-tablet {
+    width: auto;
+    height: auto;
+    padding: 24px;
+    font-size: 18px;
+  }
+
+  .container-icon-like {
+    display: flex;
+    gap: 24px;
+    position: relative;
+    left: 40px;
+    bottom: 110px;
+  }
+
+  .position-text-icon {
+    position: absolute;
+    left: -6%;
+  }
+
+  .position-text-icon-1 {
+    position: absolute;
+    left: 22%;
+  }
+
+  .position-text-icon-2 {
+    position: absolute;
+    left: 80%;
+  }
+
+  .position-text-icon-3 {
+    position: absolute;
+    left: 55%;
+  }
+  /* Cert */
+  .grid-cert {
+    width: 768px;
+    column-gap: 0px;
+    position: relative;
+    bottom: 40px;
+  }
+
+  .res-img-cert {
+    width: 60%;
+    height: 60%;
+    position: relative;
+    left: 12%;
+  }
+
+  .res-img-cert-1 {
+    width: 65%;
+    height: 39%;
+    position: relative;
+    left: 8%;
+  }
+
+  .res-img-cert-2 {
+    width: 60%;
+    height: 60%;
+    position: relative;
+    left: 12%;
+  }
+
+  .head-cert {
+    font-size: 24px;
+    position: relative;
+    left: -10%;
+  }
+
+  .title-1-cert {
+    font-size: 16px;
+    font-weight: bold;
+    width: 150%;
+    position: relative;
+    bottom: 5%;
+    left: 20%;
+  }
+
+  .title-2-cert {
+    font-size: 16px;
+    width: 150%;
+    position: relative;
+    bottom: 3%;
+    left: 12%;
+    font-weight: bold;
+  }
+
+  .title-3-cert {
+    font-size: 16px;
+    width: 120%;
+    bottom: 5%;
+    position: relative;
+    left: 11%;
+    font-weight: bold;
+  }
+
+  .items-1-cert {
+    display: flex;
+    height: 170px;
+    position: relative;
+    flex-direction: column;
+  }
+
+  .items-2-cert {
+    display: flex;
+    padding-left: 20px;
+    border-left: 3px solid #d6c08d;
+    height: 250px;
+    position: relative;
+    right: 50px;
+    flex-direction: column;
+  }
+
+  .items-3-cert {
+    display: flex;
+    height: 170px;
+    position: relative;
+    flex-direction: column;
+  }
+
+  .list-cert {
+    font-size: 12px;
+    position: relative;
+    left: 20%;
+    bottom: 20px;
+    width: 150%;
+  }
+
+  .list-cert-1-tablet {
+    font-size: 12px;
+    position: relative;
+    left: 15%;
+    bottom: 20px;
+  }
+
+  .list-cert-2-tablet {
+    font-size: 12px;
+    position: relative;
+    left: 12%;
+    bottom: 30px;
+  }
+
+  .list-items-1-cert {
+    width: 200px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .list-items-2-cert {
+    width: 200px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .list-items-2-cert {
+    width: 200px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .line-1 {
+    height: 1px;
+    width: 700px;
+    background-color: #d6c08d;
+    position: absolute;
+    top: 455%;
+    left: 3%;
+  }
+
+  /* Project */
+  .head-project {
+    font-size: 24px;
+    position: relative;
+    right: 10%;
+  }
+
+  .grid-project {
+    width: 768px;
+    gap: 0px;
+    position: relative;
+    right: 110px;
+  }
+
+  .res-img-project {
+    width: 87%;
+    height: 30%;
+  }
+
+  .style-project-1 {
+    font-size: 14px;
+  }
+
+  .project-now,
+  .font-sm {
+    font-size: 12px;
+  }
+
+  table {
+    width: 222px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  td {
+    padding: 5px 8px;
+    margin: 0;
+  }
+
+  .height-tab-tablet {
+    height: 231px;
+  }
+
+  .height-tab-tablet-1 {
+    height: 200px;
+  }
+
+  .height-header-tablet-project {
+    height: 80px;
+  }
+
+  .align-txt {
+    width: 300px;
+  }
+
+  .flex-items-project {
+    width: 222px;
+    align-items: center;
+    justify-content: center;
+    padding-right: 8px;
+  }
+
+  .style-project-1 {
+    width: 222px;
+  }
+
+  #project a {
+    font-size: 12px;
+  }
+
+  /* Footer */
+  .style-text-social {
+    font-size: 12px;
+  }
+
+  .icon-facebook-circled,
+  .icon-twitter-circled,
+  .icon-linkedin-circled {
+    font-size: 24px;
+  }
+}
+
+/* Display image header banner when using laptop and bigger device */
+@media screen and (min-width: 768px) {
+  .style-img-nav {
+    display: block;
+  }
+}
