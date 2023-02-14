@@ -8,7 +8,7 @@
 @media screen and (max-width: 768px) {
   .flex-nav {
     position: absolute;
-    left: 8%;
+    left: 7%;
     top: 50%;
     transform: translateX(1%);
   }
