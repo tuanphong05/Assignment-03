@@ -1,3 +1,3 @@
 Hi mentor
-Bài làm được em làm trên laptop kích thước 13 inch và em chưa học về Responsive Web Design, em đã đưa các thông số về giá trị tương đối. Nên nếu mentor xem bài asm2 trên các thiết bị có tỷ lệ màn hình lớn thì có thể các thành phần sẽ không được căn chuẩn.
+Bài làm được em làm trên laptop kích thước 13 inch. Em sử dụng kích thước cho tablet là 768px và mobile là 576px
 Cảm ơn mentor
