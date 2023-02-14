@@ -880,8 +880,8 @@ li.descrip-edu{
   height: 1px;
   width: 1300px;
   background-color: #d6c08d;
-  position: absolute;
-  top: 364%;
+  position: relative;
+  bottom: 310px;
   left: 2%;
 }
 
