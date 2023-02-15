@@ -31,7 +31,11 @@
     width: 100%;
     line-height: 1.5;
   }
-
+  
+  .grid-container{
+    margin-top: 47px;
+  }
+  
   /* List info */
   #personal-info {
     grid-column-start: 2;
